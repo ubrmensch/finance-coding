@@ -1,3 +1,7 @@
+DROP DATABASE IF EXISTS `financial_app`;
+CREATE DATABASE `financial_app` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `financial_app`;
+
 CREATE TABLE `stock_symbols` (
   `Symbol` char(6) NOT NULL,
   `Name` char(255) DEFAULT NULL,
